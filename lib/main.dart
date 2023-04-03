@@ -154,6 +154,7 @@ class _AdvancedDrawerState extends State<AdvancedDrawer> {
                     )
                   ],
                 ),
+                //this is for the learning purpose.
 
                 childrenPadding: EdgeInsets.only(left: 25), //children padding
                 // ignore: prefer_const_literals_to_create_immutables
