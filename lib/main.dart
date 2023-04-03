@@ -44,9 +44,11 @@ class _AdvancedDrawerState extends State<AdvancedDrawer> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Geeks For Geeks"),
+        title: Text("Day3 April Challenge "),
       ),
-      body: Center(child: Text("Swipe Left"),),
+      body: Center(
+        child: Text("Swipe Left"),
+      ),
       drawer: Drawer(
         backgroundColor: Colors.white,
         child: SingleChildScrollView(
